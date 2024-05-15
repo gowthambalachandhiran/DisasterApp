@@ -18,7 +18,7 @@ class DashboardLayout:
     """
     <div style='text-align: right;'>
         <h1 style='font-size: 24px;'>Exploring Decades of Disasters: A Journey from 1901 to 2021</h1>
-        <p>Step into the realm of historical catastrophes as we embark on a fascinating exploration spanning over a century, 
+        <p style='font-size: 16px;'>Step into the realm of historical catastrophes as we embark on a fascinating exploration spanning over a century, 
         from the dawn of the 20th century to the present day. Our interactive dashboard offers a unique opportunity to delve into the evolution of disasters, comparing their impact, frequency, and patterns across decades.
         Uncover the stories behind each era's calamities, from natural phenomena to human-made crises, and witness how societies have adapted and responded over time. With rich data visualizations and insightful analyses, our platform illuminates the changing landscape of disaster management and resilience, empowering users to glean valuable insights from the past to shape a more prepared future. Join us as we chart the course through history's trials and triumphs, exploring the ebb and flow of disaster through the decades.</p>
     </div>
@@ -29,8 +29,8 @@ class DashboardLayout:
                 st.markdown(
     """
     <div style='text-align: right;'>
-        <h2 style='font-size: 20px;'>Global Impact: Mapping Disaster Hotspots Across the Globe</h2>
-        <p>Explore the dynamic landscape of disaster occurrences worldwide, from 1901 to 2021. Dive into the interactive heatmap feature, where you can select a specific disaster type and witness its geographical distribution unfold on a global scale. From earthquakes to floods, visualize the intensity and frequency of disasters, empowering better preparedness and response strategies for a safer, more resilient world.</p>
+        <h2 style='font-size: 24px;'>Global Impact: Mapping Disaster Hotspots Across the Globe</h2>
+        <p style='font-size: 16px;'>Explore the dynamic landscape of disaster occurrences worldwide, from 1901 to 2021. Dive into the interactive heatmap feature, where you can select a specific disaster type and witness its geographical distribution unfold on a global scale. From earthquakes to floods, visualize the intensity and frequency of disasters, empowering better preparedness and response strategies for a safer, more resilient world.</p>
     </div>
     """,
     unsafe_allow_html=True
@@ -43,7 +43,7 @@ class DashboardLayout:
     """
     <div style='text-align: right;'>
         <h1 style='font-size: 24px;'>Disaster Dynamics: Exploring Nature's Varied Arsenal</h1>
-        <p>Delve into the intricacies of natural disasters by subgroup – biological, climatological, hydrological, and more. Select your desired timeframe and specific disaster subtype, whether it's a virus outbreak, landslide, or volcanic activity. Witness the frequency and distribution of these events unfold through an interactive bar graph, providing insights into the patterns and trends shaping our environment. Gain a deeper understanding of nature's unpredictable forces and inform proactive measures for resilience and adaptation.</p>
+        <p style='font-size: 16px;'>Delve into the intricacies of natural disasters by subgroup – biological, climatological, hydrological, and more. Select your desired timeframe and specific disaster subtype, whether it's a virus outbreak, landslide, or volcanic activity. Witness the frequency and distribution of these events unfold through an interactive bar graph, providing insights into the patterns and trends shaping our environment. Gain a deeper understanding of nature's unpredictable forces and inform proactive measures for resilience and adaptation.</p>
     </div>
     """,
     unsafe_allow_html=True
@@ -55,7 +55,7 @@ class DashboardLayout:
     """
     <div style='text-align: right;'>
         <h1 style='font-size: 24px;'>Unveiling Earth's Tremors: Mapping the Richter Scale</h1>
-        <p>Embark on a seismic journey through time with our earthquake exploration tab. Choose your desired time range and set the Richter scale magnitude to witness the Earth's dynamic activity unfold. As you adjust the parameters, a heatmap of the globe materializes, highlighting regions affected by seismic events of varying magnitudes. Gain insights into the distribution and intensity of earthquakes worldwide, empowering you to comprehend and mitigate the impact of these natural phenomena.</p>
+        <p style='font-size: 16px;'>Embark on a seismic journey through time with our earthquake exploration tab. Choose your desired time range and set the Richter scale magnitude to witness the Earth's dynamic activity unfold. As you adjust the parameters, a heatmap of the globe materializes, highlighting regions affected by seismic events of varying magnitudes. Gain insights into the distribution and intensity of earthquakes worldwide, empowering you to comprehend and mitigate the impact of these natural phenomena.</p>
     </div>
     """,
     unsafe_allow_html=True
