@@ -11,7 +11,7 @@ class DashboardLayout:
     def display_image_and_title(selected_tab, image_path):
         col1, col2 = st.columns([1, 4])
         with col1:
-            st.image(image_path, use_column_width=False, width=200, caption=selected_tab)
+            st.image(image_path, use_column_width=False, width=150, caption=selected_tab)
         with col2:
             if selected_tab == "Disaster Data":
                 st.markdown(
