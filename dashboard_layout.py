@@ -15,7 +15,7 @@ class DashboardLayout:
         with col2:
             if selected_tab == "Disaster Data":
                 st.markdown("""
-    <h1 style='font-size: 24px;'>
+    <h1 style='font-size: 18px;'>
     Exploring Decades of Disasters: A Journey from 1901 to 2021
     </h1>
     <p>Step into the realm of historical catastrophes as we embark on a fascinating exploration spanning over a century, 
